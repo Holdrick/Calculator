@@ -12,168 +12,171 @@
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
         tools:context="net.tjcooper.calculator.MainActivity" tools:showIn="@layout/activity_main">
 
-    <TextView
-            android:text="Hello World!"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" android:id="@+id/TextHello"/>
-    <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Swap"
-            android:id="@+id/BtnSwap"
-            android:layout_below="@+id/TextHello" android:layout_centerHorizontal="true"/>
-
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                   android:orientation="horizontal"
                   android:layout_width="fill_parent"
                   android:layout_height="fill_parent"
-                  android:layout_marginBottom="300dp"
-                  android:layout_marginTop="100dp" android:layout_below="@+id/BtnSwap"
-                  android:layout_alignParentLeft="true" android:layout_alignParentStart="true">
+                  android:layout_marginBottom="330dp"
+                  android:layout_marginTop="100dp"
+                  android:layout_alignParentLeft="true" android:layout_alignParentStart="true"
+    >
 
         <Button android:id="@+id/BtnClear"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:text="Clear" />
+                android:text="@string/clear" />
 
         <Button android:id="@+id/BtnDelete"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:text="&lt;-" />
+                android:text="@string/delete" />
 
         <Button android:id="@+id/BtnSign"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:text="+/-" />
+                android:text="@string/sign" />
 
         <Button android:id="@+id/BtnEquals"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:text="=" />
+                android:text="@string/equals" />
     </LinearLayout>
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                   android:orientation="horizontal"
                   android:layout_width="fill_parent"
                   android:layout_height="fill_parent"
-                  android:layout_marginBottom="235dp"
-                  android:layout_marginTop="165dp" android:layout_below="@+id/BtnSwap"
-                  android:layout_alignParentLeft="true" android:layout_alignParentStart="true">
+                  android:layout_marginBottom="250dp"
+                  android:layout_marginTop="185dp"
+                  android:layout_alignParentLeft="true" android:layout_alignParentStart="false"
+    >
 
         <Button android:id="@+id/BtnSeven"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:text="7" />
+                android:text="@string/seven" />
 
         <Button android:id="@+id/BtnEight"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:text="8" />
+                android:text="@string/eight" />
 
         <Button android:id="@+id/BtnNine"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:text="9" />
+                android:text="@string/nine" />
 
         <Button android:id="@+id/BtnAdd"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:text="+" />
+                android:text="@string/add" />
     </LinearLayout>
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                   android:orientation="horizontal"
                   android:layout_width="fill_parent"
                   android:layout_height="fill_parent"
                   android:layout_marginBottom="170dp"
-                  android:layout_marginTop="230dp" android:layout_below="@+id/BtnSwap"
-                  android:layout_alignParentLeft="true" android:layout_alignParentStart="true">
+                  android:layout_marginTop="230dp"
+                  android:layout_alignParentLeft="true" android:layout_alignParentStart="false"
+    >
 
         <Button android:id="@+id/BtnFour"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:text="4" />
+                android:text="@string/four" />
 
         <Button android:id="@+id/BtnFive"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:text="5" />
+                android:text="@string/five" />
 
         <Button android:id="@+id/BtnSix"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:text="6" />
+                android:text="@string/six" />
 
         <Button android:id="@+id/BtnSubtract"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:text="-" />
+                android:text="@string/subtract" />
     </LinearLayout>
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                   android:orientation="horizontal"
                   android:layout_width="fill_parent"
                   android:layout_height="fill_parent"
                   android:layout_marginBottom="105dp"
-                  android:layout_marginTop="295dp" android:layout_below="@+id/BtnSwap"
-                  android:layout_alignParentLeft="true" android:layout_alignParentStart="true">
+                  android:layout_marginTop="295dp"
+                  android:layout_alignParentLeft="true" android:layout_alignParentStart="false"
+    >
 
         <Button android:id="@+id/BtnOne"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:text="1" />
+                android:text="@string/one" />
 
         <Button android:id="@+id/BtnTwo"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:text="2" />
+                android:text="@string/two" />
 
         <Button android:id="@+id/BtnThree"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:text="3" />
+                android:text="@string/three" />
 
         <Button android:id="@+id/BtnMultiply"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:text="x" />
+                android:text="@string/multiply" />
     </LinearLayout>
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                   android:orientation="horizontal"
                   android:layout_width="fill_parent"
                   android:layout_height="fill_parent"
                   android:layout_marginBottom="40dp"
-                  android:layout_marginTop="360dp" android:layout_below="@+id/BtnSwap"
-                  android:layout_alignParentLeft="true" android:layout_alignParentStart="true">
+                  android:layout_marginTop="380dp"
+                  android:layout_alignParentLeft="true" android:layout_alignParentStart="false"
+    >
 
         <Button android:id="@+id/BtnZero"
                 android:layout_width="176dp"
                 android:layout_height="fill_parent"
-                android:text="0" />
+                android:text="@string/zero" />
 
         <Button android:id="@+id/BtnPeriod"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:text="." />
+                android:text="@string/period" />
 
         <Button android:id="@+id/BtnDivide"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:text="/" />
+                android:text="@string/divide" />
     </LinearLayout>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true" android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" android:layout_marginRight="27dp" android:layout_marginEnd="27dp"
+            android:layout_marginTop="34dp"/>
 </RelativeLayout>
