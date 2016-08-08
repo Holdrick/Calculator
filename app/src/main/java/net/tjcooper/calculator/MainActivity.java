@@ -14,13 +14,13 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button swapButton;
     private TextView helloMsg;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+/*
         swapButton = (Button)findViewById(R.id.BtnSwap);
         helloMsg = (TextView)findViewById(R.id.TextHello);
 
@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
         };
 
         swapButton.setOnClickListener(myOnClickListener);
+*/
     }
 /*
     @Override
@@ -53,8 +54,6 @@ public class MainActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            Toast toast = Toast.makeText(this, "Button pressed", Toast.LENGTH_LONG);
-            toast.show();
             return true;
         }
 
